@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sokoto Hisbah – Add Employee</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="firebase-config.js"></script>
+  <script type="module" src="app.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Add New Employee</h1>
+    <form id="employeeForm">
+      <input type="text" id="fullName" placeholder="Full Name" required />
+      <input type="text" id="hisbahId" placeholder="Hisbah ID" required />
+      <input type="text" id="position" placeholder="Position" required />
+      <input type="text" id="phone" placeholder="Phone Number" required />
+      <input type="date" id="dateJoined" required />
+      <input type="text" id="address" placeholder="Office Address" required />
+      <input type="file" id="photo" accept="image/*" required />
+      <button type="submit">Save Employee</button>
+    </form>
+  </div>
+</body>
+</html>
+```
+
+---
